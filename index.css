@@ -1,0 +1,437 @@
+.flex-container{
+    width:70vw;
+    height:40vh;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: yellow;
+    margin: 50px 50px 50px 100px;
+    padding:100px;
+    animation-name: cotainer;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background: linear-gradient(
+        to bottom right,
+        violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+    );
+}
+.flex-item1{
+    width:100px;
+    height:150px;
+    background-color:red;
+    color: aqua;
+    font-size: 150px;
+    text-align: center;
+    padding: 50px;
+    animation-name: item1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.flex-item2{
+    width:100px;
+    height:150px;
+    background-color:green;
+    color: rgb(61, 9, 110);
+    font-size: 150px;
+    text-align: center;
+    padding: 50px;
+    animation-name: item2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.flex-item3{
+    width:100px;
+    height:150px;
+    background-color:blue;
+    color: rgb(223, 156, 11);
+    font-size: 150px;
+    text-align: center;
+    padding: 50px;
+    animation-name: item3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.flex-item4{
+    width:100px;
+    height:150px;
+    background-color:brown;
+    color: rgb(219, 20, 143);
+    font-size: 150px;
+    text-align: center;
+    padding: 50px;
+    animation-name: item4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes item1{
+    0%{
+        transform: translateY(50px);
+    }
+    0%{
+        background: linear-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    25%{
+        background: linear-gradient(
+            to left,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    50%{
+        background: linear-gradient(
+            to top,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    75%{
+        background: linear-gradient(
+        to right,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        background: radial-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        transform: translateY(-50px);
+        color: red;
+        background-color: aqua;
+    }
+}
+@keyframes item2{
+    0%{
+        transform: translateY(-50px);
+    }
+    0%{
+        background: linear-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    25%{
+        background: linear-gradient(
+            to left,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    50%{
+        background: linear-gradient(
+            to top,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    75%{
+        background: linear-gradient(
+        to right,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        background: radial-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        transform: translateY(50px);
+        color: green;
+        background-color: rgb(61, 9, 110);;
+    }
+}
+@keyframes item3{
+    0%{
+        transform: translateY(50px);
+    }
+    0%{
+        background: linear-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    25%{
+        background: linear-gradient(
+            to left,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    50%{
+        background: linear-gradient(
+            to top,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    75%{
+        background: linear-gradient(
+        to right,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        background: radial-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        transform: translateY(-50px);
+        color: blue;
+        background-color:rgb(223, 156, 11);
+    }
+}
+@keyframes item4{
+    0%{
+        transform: translateY(-50px);
+    }
+    0%{
+        background: linear-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    25%{
+        background: linear-gradient(
+            to left,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    50%{
+        background: linear-gradient(
+            to top,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    75%{
+        background: linear-gradient(
+        to right,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        background: radial-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        transform: translateY(50px);
+        color: brown;
+        background-color: rgb(219, 20, 143);
+    }
+}
+@keyframes container{
+    0%{
+        background: linear-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    25%{
+        background: linear-gradient(
+            to left,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    50%{
+        background: linear-gradient(
+            to top,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    75%{
+        background: linear-gradient(
+        to right,
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+    100%{
+        background: radial-gradient(
+            violet,
+            indigo,
+            skyblue,
+            green,
+            yellow,
+            orange,
+            red
+        );
+    }
+}
+@media screen and (max-width:500px) {
+    body{
+        margin:0px;
+        height:0px;
+    }
+    .flex-container{
+        width:100vw;
+        height:200vh;
+        display: flex;
+        flex-direction:column;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        align-items: center;
+        background-color: yellow;
+        margin: 0px;
+        padding:0px;
+        background: linear-gradient(
+            to bottom right,
+            violet,
+                indigo,
+                skyblue,
+                green,
+                yellow,
+                orange,
+                red
+        );
+    }
+}
